@@ -1,3 +1,3 @@
 #!/bin/bash
 sudo systemctl stop nginx 
-cp -r /var/www/html/nginx.conf /etc/nginx/sites-available/default
+cp -r /var/www/html/default /etc/nginx/sites-available/default
